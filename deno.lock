@@ -1,3 +1,25 @@
 {
-  "version": "4"
+  "version": "4",
+  "specifiers": {
+    "jsr:@std/cli@*": "1.0.7",
+    "jsr:@std/cli@^1.0.7": "1.0.7",
+    "npm:zod@*": "3.23.8",
+    "npm:zod@^3.23.8": "3.23.8"
+  },
+  "jsr": {
+    "@std/cli@1.0.7": {
+      "integrity": "98359df9df586a69015ba570305183b0cb9e7d53c05ea2016ef9a3e77e82c7cd"
+    }
+  },
+  "npm": {
+    "zod@3.23.8": {
+      "integrity": "sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/cli@^1.0.7",
+      "npm:zod@^3.23.8"
+    ]
+  }
 }
